@@ -1,0 +1,57 @@
+
+
+
+div{
+	width: 200px;
+	height: 260px;
+	margin:2px;
+	float:left;
+	border:1px solid #D1CACA;
+	background-color: whitesmoke;
+    transition: all 5s;
+}
+
+p{
+	text-align: center;
+	font-family: Satisfy;
+	font-size: 14px;
+	margin-left: 12px;
+	margin-right: 12px;
+	color:grey;
+    padding: 20px;
+	margin-bottom: 160px;
+	margin-top: 0;   
+   }
+
+
+h2{ margin-bottom: 30px;
+	text-align: center;
+	font-family: Handlee;
+	font-size: 16px;
+	color:dimgrey;
+}
+ 
+h6 {
+	font-family: 'Josefin Sans',sans-serif; 
+    font-size: 15px;
+    color:grey;
+	text-align: center;
+	margin: 0;
+	border: 0;
+}
+
+icon {
+	left: 100px;
+	top: 40px;
+	color: red;
+	margin: 0;
+	border: 0;
+	font-size: 3em;
+	position: absolute;
+}
+
+div:hover h2, div:hover p , div:hover .icon {
+	color: gainsboro;
+   
+}
+
